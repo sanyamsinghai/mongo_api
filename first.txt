@@ -1,0 +1,15 @@
+sanyamDB - password
+
+connection string - mongodb+srv://sanyam:sanyamDB@cluster0.gzfkaxp.mongodb.net/?appName=Cluster0
+
+python -m pip install "pymongo[srv]"
+
+
+command to create virtual envronment - python -m venv env_name
+to activate  - .\env_name\Scripts\activate
+
+to install requrements - pip install -r .\requrements.txt
+
+.env - used to hide information , which should not be seen by user , only admin
+
+to load data of .env file - from dotenv import load_dotenv
